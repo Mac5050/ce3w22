@@ -2,7 +2,7 @@
 $(window).on("load", start);
 
 function start(){
-     //$("body").css("background-color", "pink");
+    $("ul.nav a:first").click();
 }
 
 $(document).on("click", "ul.nav a", nav);
